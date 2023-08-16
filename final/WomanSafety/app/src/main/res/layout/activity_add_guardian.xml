@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddGuardianActivity">
+
+    <EditText
+        android:id="@+id/editTextGuardianName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Guardian's Name"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Guardian Phone Number Edit Text -->
+    <EditText
+        android:id="@+id/editTextGuardianPhoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Guardian's Phone Number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGuardianName" />
+
+    <!-- Guardian Email Edit Text -->
+    <EditText
+        android:id="@+id/editTextGuardianEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Guardian's Email"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGuardianPhoneNumber" />
+
+    <!-- Button: Save Guardian -->
+    <Button
+        android:id="@+id/buttonSaveGuardian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Guardian"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGuardianEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- RecyclerView: List of Added Guardians -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

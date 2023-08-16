@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "566953399064",
+    "project_id": "womansafety-bba57",
+    "storage_bucket": "womansafety-bba57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566953399064:android:aa3823d887fa4c8ffac46d",
+        "android_client_info": {
+          "package_name": "com.example.womansafety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566953399064-878e3m2tv3j2letn9r2a4l1qv66imjtq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.womansafety",
+            "certificate_hash": "44201e145f5099d1b85f979cd077c32119ce7c69"
+          }
+        },
+        {
+          "client_id": "566953399064-07o5tri77j549p8teho9nj1ri8e4n2ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClAuOfOMsPuyT7ICD4r6bgWETGXm3FSdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566953399064-07o5tri77j549p8teho9nj1ri8e4n2ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
